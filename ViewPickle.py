@@ -5,4 +5,4 @@ from pprint import pprint
 obj = pickle.load(open("RML2016.10a_dict.pkl",'rb'), encoding="latin1")
 
 # print the contents of the object
-pprint(obj)
+pprint(obj[('WBFM',16)])
